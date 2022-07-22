@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Helpital</title>
+	<link rel="icon" href="Logo.png">
+	<link rel="stylesheet" type="text/css" href="Diseño.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<img class="Logo" src="Logo.png">
+			<h1 class="Titulo"> Helpital </h1>	
+			<nav class="navegation">
+				<ul>
+					<li> <a href="https://gist.github.com/Prottoy2938/66849e04b0bac459606059f5f9f3aa1a"> Algoritmo de Dijkstra </a></li>
+					<li>  <a href="https://ourcodeworld.co/articulos/leer/185/como-obtener-el-color-del-pixel-de-un-canvas-en-un-evento-de-clic-o-mouse-con-javascript"> Uso del canvas </a> </li>
+					<li>  <a href="https://github.com/MigVC/DPShortestPath"> Github del proyecto </a> </li>
+				</ul>				
+			</nav>		
+			<div class="button">
+				<div class="interruptor"> </div>
+			</div>
+		</div>					
+	</header>
+
+	<main class="main">		
+		<div class="info">
+			<h2>El punto de partida es: </h2>
+			<h3 id="puntoInicio"></h4>
+			<br><br>
+			<h2>El hospital más cercano es: </h2>
+			<h3 id="puntoFinal"></h4>
+			<br><br>
+			<h2>Dirección electronica: </h2>
+			<div id="urlHospital">
+				<a id="url" href="">AntiClick here</a>
+			</div>
+			<br><br>
+			<h2>Dirección: </h2>
+			<h3 id="direccion"></h4>
+			<br><br>
+			<h2>Tiempo estimado de llegada:</h2>
+			<h3 id="tiempo"></h4>
+			<br><br>
+		</div>			
+		
+		<div class="Canvas"></div>
+			<canvas class="Mapa" id="canvas" width="1583" height="630"></canvas>
+		</div>
+		
+	</main>
+	<footer class="foot">
+		<div class="container2">
+			<div class="Informacion">
+				<a class="Img_Footer" href="http://www.unsaac.edu.pe/">
+					<img class="Img_Footer" src="1.PNG">
+				</a>
+			</div>
+	
+			<div class="Informacion">
+				
+				<h5><b>Enrique</b><br>	182908@unsaac.edu.pe</h5>
+	
+				<h5><b>Miguel</b><br>174961@unsaac.edu.pe</h5>	
+				
+	
+				<h5><b>Raísa</b><br>182927@unsaac.edu.pe</h5>	
+				
+	
+				<h5><b>Kevin</b><br>182909@unsaac.edu.pe</h5>	
+				
+	
+				<h5><b>Mafer</b><br>151388@unsaac.edu.pe</h5>			
+			</div>		
+			
+			<div class="Informacion">
+				<a class="Img_Footer2" href="http://in.unsaac.edu.pe/home/">
+					<img class="Img_Footer2" src="carrera.PNG">
+				</a>
+			</div>
+		</div>
+		<center>
+			<div class="end">
+				<h6>Todos los derechos reservados<br>Cusco-Perú<br>© 2021 Copyright:<a class="text-reset fw-bold" href="http://www.unsaac.edu.pe/">UNSAAC</a></h6>   		
+			</div>	
+		</center>
+	</footer>
+	<script src="app.js"></script>
+</body>
+</html>

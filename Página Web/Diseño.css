@@ -1,0 +1,156 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html{
+	--primario: rgb(145, 146, 238);
+	--secundario: rgb(194, 194, 206);
+	--tercero: rgb(139, 141, 218);
+	--letras: black;
+}
+header {
+	background-color: var(--primario);
+	padding: 1rem 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.Logo {
+	width: 5rem;
+	height: 5rem;
+	padding: 0;
+}
+.Titulo{
+	margin-left: 100px;
+	color: var(--letras);
+	padding-left: 0rem;
+	padding-right: 0rem;
+	transition: all 0.4s linear;
+	letter-spacing: 1.2rem;
+	font:oblique bold 210% cursive;
+}
+.button{
+	width: 50px;
+	height: 30px;
+	margin: auto;
+	background-color: blanchedalmond;
+	border-radius: 15px;
+	
+}
+.interruptor{
+	transition: all 0.2s linear;
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 5px solid blanchedalmond;
+	position: relative;
+	
+}
+.navegation ul{
+	padding: 0rem 6rem;
+	list-style: none;
+}
+.navegation ul li{
+	display: inline-block;
+	padding: 1rem 1rem;
+}
+.navegation ul li a{
+	color: var(--letras);
+	text-decoration: none;
+	padding: 1rem;
+	transition: all 0.4s linear;
+	border-radius: 10%;
+
+}
+.navegation ul li a:hover{
+	background: rgb(144, 163, 218);
+}
+.main{
+	background-color: var(--secundario);
+	padding-top: 11rem;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	padding-bottom: 5rem;
+
+}
+.main div{
+	display: inline-block;
+}
+.main p{
+	color: var(--letras);
+
+}
+.info{
+	margin-left: 2rem;
+	margin-right: 13rem;
+	position: static;
+}
+.info h3{
+	color: var(--letras);
+	transition: all 0.4s linear;
+}
+.info h2{
+	color: var(--letras);
+	transition: all 0.4s linear;
+}
+.Canvas{
+	position: static;
+}
+.Mapa {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 360px;
+}
+
+footer{
+	background-color: var(--primario);
+}
+.container2{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+footer div h5{
+	display: inline-block;
+	text-align: center;
+	padding: 0rem 3rem;
+	color: var(--letras);
+	transition: all 0.2s linear;
+}
+
+.end{
+	
+	background-color: var(--tercero);
+	padding: 0.5rem;
+}
+.end h6{
+	color: var(--letras);
+	transition: all 0.2s linear;
+}
+.Img_Footer {
+	margin: 20px;
+	height: 60px;
+	padding-left: 1rem;
+}
+
+.Img_Footer2{
+	margin: 20px;
+	height: 60px;
+}
+.C_P {
+	margin-left: 60px;
+}
